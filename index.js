@@ -73,6 +73,7 @@ module.exports = function(parameters) {
       urlDecode: decodeURIComponent,
       base64Encode: base64Encode,
       base64Decode: base64Decode,
+      parseJson: JSON.parse
     }
   };
 
